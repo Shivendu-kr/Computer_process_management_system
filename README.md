@@ -21,6 +21,7 @@ Clone the Repository: https://github.com/Shivendu-kr/Computer_process_management
 
 # File Architecture
 computer-process-management/
+
 │
 ├── config.js                # Configuration file (MongoDB connection, thresholds)
 
