@@ -1,5 +1,9 @@
 # Computer_process_management_system
 This project is a computer process management system developed using Node.js, MongoDB, and a bit of frontend to monitor system backend processes. It automatically saves process information to MongoDB and shuts down any processes exhibiting abnormalities.
+
+# How it Works
+The system continuously monitors CPU and memory usage, saving the metrics to a MongoDB database. If CPU or memory usage exceeds predefined thresholds, the system automatically shuts down the corresponding process.
+
 # Features
 Process Monitoring: Constantly monitors system backend processes.
 
