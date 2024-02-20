@@ -11,5 +11,7 @@ Database Integration: Stores process information in MongoDB.
 
 # Technologies Used
 Node.js: Backend server environment.
+
 MongoDB: NoSQL database for storing process data.
+
 Frontend: Minimal frontend for user interaction.
