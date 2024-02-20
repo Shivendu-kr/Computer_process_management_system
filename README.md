@@ -15,3 +15,17 @@ Node.js: Backend server environment.
 MongoDB: NoSQL database for storing process data.
 
 Frontend: Minimal frontend for user interaction.
+
+# Setup Instructions
+Clone the Repository: https://github.com/Shivendu-kr/Computer_process_management_system.git
+# Install Dependencies:
+cd Computer-process-management
+npm init -y
+npm i express child_process mongoose os
+
+# Set Up MongoDB:
+run MongoDB server : mongod
+To see saved database: cmd mongose --> show dbs --> use tasklistDB --> db.tasklistDB.find()
+
+# Run the app.js
+node app.js
