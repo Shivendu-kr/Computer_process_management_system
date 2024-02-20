@@ -1,0 +1,36 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .metric {
+    flex: 1;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  .metric h2 {
+    margin-top: 0;
+  }
+  
+  .value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
