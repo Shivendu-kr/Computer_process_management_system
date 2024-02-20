@@ -18,6 +18,19 @@ Frontend: Minimal frontend for user interaction.
 
 # Setup Instructions
 Clone the Repository: https://github.com/Shivendu-kr/Computer_process_management_system.git
+
+# File Architecture
+computer-process-management/
+│
+├── config.js                # Configuration file (MongoDB connection, thresholds)
+├── app.js                   # The Main file
+│
+├── public/                  # Directory for static files (frontend)
+│   └── index.html           # Main HTML file
+│   └── scripts.js           # Main function file
+│   └── styles.css           # Cascading Style Sheets
+
+
 # Install Dependencies:
 cd Computer-process-management
 npm init -y
