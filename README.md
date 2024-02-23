@@ -28,6 +28,8 @@ computer-process-management/
 
 │
        ├── config.js                # Configuration file (MongoDB connection, thresholds)
+       
+       ├──Modules, Package file     # Dependencies files
 
        ├── app.js                   # The Main file
 
